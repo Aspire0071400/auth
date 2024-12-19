@@ -1,3 +1,4 @@
+import 'package:auth/screens/forgot_screen.dart';
 import 'package:auth/screens/login_screen.dart';
 import 'package:auth/screens/signup_screen.dart';
 import 'package:flutter/material.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const LoginScreen(),
         '/signup_screen': (context) => SignupScreen(),
+        '/forgot_screen': (context) => ForgotScreen(),
       },
     );
   }

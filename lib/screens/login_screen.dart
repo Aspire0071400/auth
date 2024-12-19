@@ -107,7 +107,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
                 const SizedBox(height: 10),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/forgot_screen');
+                  },
                   style: const ButtonStyle(
                       overlayColor: WidgetStatePropertyAll(Colors.transparent)),
                   child: Text(
